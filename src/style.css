@@ -1,0 +1,79 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+ul,
+li {
+  padding: none;
+  margin: 0;
+}
+
+.container {
+  margin-top: 10px;
+  padding-top: 12px;
+  max-width: 1000px;
+}
+
+.temperature {
+  position: relative;
+  font-size: 30px;
+}
+
+.day-date,
+.weather-breakdown {
+  margin: 0;
+  list-style: none;
+  line-height: 20px;
+}
+
+.weather-breakdown {
+  padding-top: 165px;
+}
+
+.todays-weather {
+  margin: 0;
+  padding: none;
+  max-width: 200px;
+}
+
+.card {
+  max-width: 150px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 10px;
+}
+
+.wed-image,
+.thurs-image,
+.fri-image,
+.sat-image,
+.sun-image,
+.mon-image {
+  max-width: 75px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.recommendation {
+  padding-top: 12px;
+  font-size: 13px;
+  line-height: 0px;
+}
+
+.tag {
+  font-size: 13px;
+  line-height: 0px;
+}
