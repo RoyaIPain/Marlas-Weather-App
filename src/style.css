@@ -13,12 +13,6 @@ h5 {
   font-size: 16px;
 }
 
-ul,
-li {
-  padding: none;
-  margin: 0;
-}
-
 .container {
   margin-top: 10px;
   padding-top: 12px;
@@ -27,22 +21,12 @@ li {
 
 .temperature {
   position: relative;
+  bottom: 30px;
   font-size: 30px;
-}
-
-.day-date,
-.weather-breakdown {
-  margin: 0;
-  list-style: none;
-  line-height: 20px;
-}
-
-.weather-breakdown {
-  padding-top: 165px;
+  display: inline;
 }
 
 .todays-weather {
-  margin: 0;
   padding: none;
   max-width: 200px;
 }
