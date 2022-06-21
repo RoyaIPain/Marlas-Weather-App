@@ -53,26 +53,24 @@ class="form-control shadow-sm border-0" />
 </div>
 
       <div class="row">
-        <div class="col-6">
           <h1 id="city"></h1>
 <h6 id="day-full-date"></h6>
 <h6 id="full-time"></h6>
 </div>
 
-
-  <div class="col-6">   
-    <p class="weather-breakdown"> 
+ <div class="row">
+  <div class="col-3"> 
                 <img src="images/rain.png" 
               alt="todays weather"
               class="todays-weather">
-              <span class="temperature" id="temperature"></span>
-              <br />
-         <span id="humidity" class="humidity"></span>
-          <br />
-          <span id="wind" class="windspd"></span>
-         </p>
+              </div>
+
+              <div class="col-9">
+              <p class="temp-p"><span class="temperature" id="temperature"></span>℃ | <a href="#">℉</a></p>
+         <p class="humid-p"><strong>Humidity: </strong><span id="humidity" class="humidity"></span>%</p>
+          <p class="wndspd-p"><strong>Wind Speed: </strong><span id="wind" class="windspd"></span>km/h</p>
         </div>
-    </div>
+</div>
 
     <p class="week-forecast">
       <strong> The week ahead... </strong>
