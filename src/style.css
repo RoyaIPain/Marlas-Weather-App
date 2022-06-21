@@ -26,11 +26,12 @@ h5 {
 .wndspd-p,
 .humid-p,
 .temp-p {
-  line-height: 1px;
+  line-height: 20px;
   font-size: 15px;
 }
 
 .todays-weather {
+  display: inline;
   padding: none;
   max-width: 250px;
 }
@@ -41,7 +42,7 @@ h5 {
   padding: 5px;
   text-align: center;
   font-size: 12px;
-  line-height: 10px;
+  line-height: 1px;
 }
 
 .wed-image,
