@@ -23,11 +23,17 @@ h5 {
   font-size: 30px;
 }
 
-.wndspd-p,
-.humid-p,
-.temp-p {
+.wndspd-d,
+.humid-d,
+.temp-d,
+.weather-descrip-d {
   line-height: 20px;
   font-size: 15px;
+}
+
+.weather-descrip-d {
+  font-style: italic;
+  color: rgb(163, 163, 163);
 }
 
 .todays-weather {

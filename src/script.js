@@ -57,6 +57,12 @@ function displayCurrentWeather(response) {
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+
+  let descriptionElement = document.querySelector("#description");
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute("src", `images/rain.png`);
+
+  descriptionElement.innerHTML = response.data.weather[0].description;
 }
 
 function searchCity(city) {
