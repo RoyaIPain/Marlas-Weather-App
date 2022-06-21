@@ -63,6 +63,7 @@ function displayCurrentWeather(response) {
   iconElement.setAttribute("src", `images/rain.png`);
 
   descriptionElement.innerHTML = response.data.weather[0].description;
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function searchCity(city) {
