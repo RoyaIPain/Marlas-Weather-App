@@ -23,6 +23,22 @@ h5 {
   font-size: 30px;
 }
 
+.celsius-link,
+.fahrenheit-link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.celsius-link:hover,
+.fahrenheit-link:hover {
+  text-decoration: none;
+}
+
+.celsius-link {
+  color: black;
+  cursor: default;
+}
+
 .wndspd-d,
 .humid-d,
 .temp-d,
