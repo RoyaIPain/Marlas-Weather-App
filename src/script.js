@@ -59,11 +59,7 @@ function displayCurrentWeather(response) {
   );
 
   let descriptionElement = document.querySelector("#description");
-  let iconElement = document.querySelector("#icon");
-  iconElement.setAttribute("src", `images/rain.png`);
-
   descriptionElement.innerHTML = response.data.weather[0].description;
-  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function searchCity(city) {
@@ -129,5 +125,8 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemp);
 
 let celsiusTemp = null;
+
+let iconElement = document.querySelector("#icon");
+iconElement.setAttribute("src", `images/rain.png`);
 
 searchCity("New York");
