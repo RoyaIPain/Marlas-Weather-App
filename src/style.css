@@ -34,6 +34,10 @@ h5 {
   text-decoration: none;
 }
 
+.fahrenheit-link {
+  color: rgb(37, 201, 187);
+}
+
 .celsius-link {
   color: black;
   cursor: default;
@@ -49,7 +53,7 @@ h5 {
 
 .weather-descrip-d {
   font-style: italic;
-  color: rgb(163, 163, 163);
+  color: rgb(37, 201, 187);
 }
 
 .todays-weather {
@@ -81,11 +85,16 @@ h5 {
 .recommendation {
   padding-top: 25px;
   padding-bottom: 15px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 0px;
+  color: rgb(163, 163, 163);
 }
 
 .tag {
   font-size: 13px;
   line-height: 0px;
+}
+
+.tag-link {
+  color: rgb(37, 201, 187);
 }
