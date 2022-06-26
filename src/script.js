@@ -51,7 +51,35 @@ function formatTime(time) {
 function displayForecast() {
   let forecastElement = document.querySelector("#weather-forecast");
 
-  forecastElement.innerHTML = "Forecast";
+  let forecastHTML = `<div class="row">`;
+  let days = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+    <div class="col-2 d-flex align-items-stretch">
+      <div class="card shadow-sm border-0" style="width: 10rem">
+        <img src="images/sun.png" class="wed-image" />
+        <div class="card-body-wed">
+          <h5 class="card-title">${day}</h5>
+          <p class="card-date-wed"></p>
+          <p class="card-text-wed"><strong>15℃</strong> / 10℃</p>
+          <a href=""></a>
+        </div>
+      </div>
+      </div>
+      `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
 }
 
 function displayCurrentWeather(response) {
