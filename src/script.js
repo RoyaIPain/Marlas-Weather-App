@@ -48,6 +48,12 @@ function formatTime(time) {
   return `${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#weather-forecast");
+
+  forecastElement.innerHTML = "Forecast";
+}
+
 function displayCurrentWeather(response) {
   celsiusTemp = response.data.main.temp;
 
@@ -130,3 +136,4 @@ let iconElement = document.querySelector("#icon");
 iconElement.setAttribute("src", `images/rain.png`);
 
 searchCity("New York");
+displayForecast();
