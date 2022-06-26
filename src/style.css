@@ -7,6 +7,7 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   margin: 0;
+  color: rgb(37, 201, 187);
 }
 
 h5 {
@@ -71,6 +72,10 @@ h5 {
   line-height: 1px;
 }
 
+.card-title {
+  color: rgb(37, 201, 187);
+}
+
 .wed-image,
 .thurs-image,
 .fri-image,
@@ -97,4 +102,9 @@ h5 {
 
 .tag-link {
   color: rgb(37, 201, 187);
+  text-decoration: none;
+}
+
+.tag-link:hover {
+  color: rgb(163, 163, 163);
 }
