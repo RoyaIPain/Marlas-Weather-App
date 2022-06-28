@@ -78,12 +78,7 @@ h5 {
   font-weight: bold;
 }
 
-.wed-image,
-.thurs-image,
-.fri-image,
-.sat-image,
-.sun-image,
-.mon-image {
+.forecast-day-image {
   max-width: 100px;
   margin: auto;
   padding-bottom: 10px;
