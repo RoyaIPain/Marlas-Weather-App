@@ -7,7 +7,7 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   margin: 0;
-  color: rgb(37, 201, 187);
+  color: #ec957d;
 }
 
 h5 {
@@ -25,24 +25,20 @@ h5 {
   font-size: 30px;
 }
 
-.celsius-link,
-.fahrenheit-link {
+.units {
   font-size: 14px;
-  text-decoration: none;
 }
 
-.celsius-link:hover,
-.fahrenheit-link:hover {
-  text-decoration: none;
+.current-button,
+.search-button {
+  color: #ec957d;
 }
 
-.fahrenheit-link {
-  color: rgb(37, 201, 187);
-}
-
-.celsius-link {
+.current-button:hover,
+.search-button:hover {
+  background-color: #ec957d;
   color: black;
-  cursor: default;
+  transition: all 250ms ease-in-out;
 }
 
 .wndspd-d,
@@ -59,8 +55,7 @@ h5 {
   color: rgb(163, 163, 163);
 }
 
-.todays-weather {
-  display: inline;
+.todays-weather-icon {
   padding: none;
   max-width: 250px;
 }
@@ -89,7 +84,8 @@ h5 {
   padding-bottom: 15px;
   font-size: 15px;
   line-height: 0px;
-  color: rgb(163, 163, 163);
+  color: rgb(37, 201, 187);
+  font-style: italic;
 }
 
 .tag {
@@ -98,10 +94,10 @@ h5 {
 }
 
 .tag-link {
-  color: rgb(37, 201, 187);
+  color: black;
   text-decoration: none;
 }
 
 .tag-link:hover {
-  color: rgb(163, 163, 163);
+  color: rgb(37, 201, 187);
 }
