@@ -72,10 +72,10 @@ function displayForecast(response) {
         <img src="http://openweathermap.org/img/wn/${
           forecastDay.weather[0].icon
         }@2x.png" class="forecast-day-image" />
-        <div class="card-body-wed">
+        <div class="card-body">
           <h5 class="card-title">${formatDay(forecastDay.dt)}</h5>
-          <p class="card-date-wed"></p>
-          <p class="card-text-wed"><span class="forecast-temp-max"><strong>${Math.round(
+          <p class="card-date"></p>
+          <p class="card-text"><span class="forecast-temp-max"><strong>${Math.round(
             forecastDay.temp.max
           )}</span>℃</strong> / 
           <span class="forecast-temp-min">${Math.round(
