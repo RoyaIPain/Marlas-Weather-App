@@ -113,6 +113,8 @@ function displayCurrentWeather(response) {
   descriptionElement.innerHTML = response.data.weather[0].description;
 
   getForecast(response.data.coord);
+
+  iconElement.setAttribute("src", `images/rain.png`);
 }
 
 function searchCity(city) {
@@ -158,6 +160,5 @@ let currentLocationButton = document.querySelector("#current-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 let iconElement = document.querySelector("#icon");
-iconElement.setAttribute("src", `images/rain.png`);
 
-searchCity("New York");
+searchCity("Leverkusen");
