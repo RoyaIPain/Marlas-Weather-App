@@ -11,14 +11,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather App - WIP</title>
+    <title>Marla's Weather App - SheCodes</title>
 
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
   </head>
   <body>
-    <div class="container shadow-sm border-0 rounded">  
+    <div class="container shadow-sm border-0 rounded" id="container">  
 
       <div class="row">
         <div class="col-6">
@@ -74,11 +74,6 @@ class="form-control shadow-sm border-0 current-button" />
           <div class="wndspd-d"><strong>Wind Speed: </strong><span id="wind" class="windspd"></span>km/h</div>
         </div>        
 </div>
-    <p class="recommendation"><strong>For the week ahead:</strong>
-        We recommend wearing a light jacket throughout the week as winds will
-        pick up...
-      </p>
-
     <div class="weather-forecast" id="weather-forecast">
       </div>
 

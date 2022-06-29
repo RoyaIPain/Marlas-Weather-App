@@ -1,4 +1,5 @@
 body {
+  color: rgb(105, 105, 105);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -60,7 +61,8 @@ h5 {
 }
 
 .todays-weather-icon {
-  padding: none;
+  padding-top: 15px;
+  padding-bottom: 35px;
   max-width: 250px;
 }
 
@@ -72,21 +74,20 @@ h5 {
 }
 
 .card-title {
-  color: rgb(37, 201, 187);
+  color: #ec957d;
   font-weight: bold;
 }
 
 .forecast-day-image {
   max-width: 100px;
-  padding: none;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding: none;
 }
 
 .recommendation {
   font-size: 15px;
   line-height: 0px;
-  color: rgb(37, 201, 187);
+  color: rgb(110, 110, 110);
   font-style: italic;
 }
 
@@ -106,5 +107,5 @@ h5 {
 }
 
 .tag-link:hover {
-  color: rgb(37, 201, 187);
+  color: #ec957d;
 }
