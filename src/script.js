@@ -114,7 +114,8 @@ function displayCurrentWeather(response) {
 
   getForecast(response.data.coord);
 
-  iconElement.setAttribute("src", `images/rain.png`);
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute("src", `src/images/09d.png`);
 }
 
 function searchCity(city) {
@@ -158,7 +159,5 @@ searchForm.addEventListener("submit", handleSubmit);
 
 let currentLocationButton = document.querySelector("#current-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
-
-let iconElement = document.querySelector("#icon");
 
 searchCity("Leverkusen");
